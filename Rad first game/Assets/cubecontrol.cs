@@ -15,9 +15,9 @@ public class cubecontrol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.UpArrow) )
+        if (Input.GetKey(KeyCode.UpArrow))
         {
-            transform.position += speed* Vector3.forward * Time.deltaTime;
+            transform.position += speed * Vector3.forward * Time.deltaTime;
         }
 
         if (Input.GetKey(KeyCode.A))
@@ -26,7 +26,9 @@ public class cubecontrol : MonoBehaviour
         }
 
 
-       
+
 
     }
 }
+    
+
